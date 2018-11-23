@@ -266,7 +266,7 @@
 		return{
 			setEvent:function(){
 				self = this;
-				document.querySelector('.legacy-controls-styles').addEventListener('click', function(e) {
+				document.querySelector('.PlayerControlsNeo__button-control-row').addEventListener('click', function(e) {
 					if(e.y > 190) {return false;}
 					self.toggle();
 				}, false);			
@@ -392,9 +392,9 @@
 	
 	
 	let intv = setInterval(function(){
+
 		let item = document.querySelector('.player-timedtext');
-		
-		if(item && document.querySelector('.legacy-controls-styles')){
+		if(item && document.querySelector('.PlayerControlsNeo__button-control-row')){
 			if(!config.launched){
 				run(item);
 			}

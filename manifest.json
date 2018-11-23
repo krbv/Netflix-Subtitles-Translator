@@ -23,5 +23,5 @@
    "permissions": [ "contextMenus", "tabs", "storage" ],
    "short_name": "Netflix Subtitles Translator",
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "0.1.1"
+   "version": "0.1.2"
 }
